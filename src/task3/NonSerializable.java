@@ -1,4 +1,4 @@
-package taskN;
+package task3;
 
 /**
  * @author Almat on 08.02.2020

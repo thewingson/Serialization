@@ -5,7 +5,8 @@ import java.io.*;
 /**
  * @author Almat on 08.02.2020
  *
- * Task 1: implement Serializable
+ * Task 1:
+ *      implement Serializable
  */
 public class Task1 {
 

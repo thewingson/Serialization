@@ -1,4 +1,4 @@
-package taskN;
+package task3;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -15,13 +15,11 @@ public class DataObject extends NonSerializable implements Serializable {
 
     @Override
     public String toString() {
-
         return "DataObject{" +
                 "i=" + i +
                 ", s='" + s + '\'' +
                 ", strings=" + Arrays.toString(strings) +
                 ", customObject=" + customObject +
-                '}' +
-                "\n" + super.toString();
+                '}';
     }
 }
