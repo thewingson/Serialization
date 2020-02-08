@@ -1,0 +1,24 @@
+package taskN;
+
+/**
+ * @author Almat on 08.02.2020
+ */
+public class NonSerializable {
+
+    private String myData = "";
+
+    public String getMyData() {
+        return myData;
+    }
+
+    public void setMyData(String myData) {
+        this.myData = myData;
+    }
+
+    @Override
+    public String toString() {
+        return "NonSerializable{" +
+                "myData='" + myData + '\'' +
+                '}';
+    }
+}
